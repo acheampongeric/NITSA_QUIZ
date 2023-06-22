@@ -4,6 +4,9 @@
     box-sizing: border-box;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
+body{
+    display: block;
+}
 
 .navbar{
     background-color: black;
@@ -58,7 +61,7 @@
 header{
     width: 100%;
     background-color: red;
-    height: 50vh;
+    height: 98vh;
     text-align: center;
     align-items: center;
 }
@@ -68,22 +71,72 @@ header h1{
 section{
     width: 100%;
     background-color: rgb(255, 217, 0);
-    height: 50vh;
+    height: 99vh;
     text-align: center;
     align-items: center;
 }
 section h1{
     padding-top: 160px;
+
 }
-footer{
-    width: 100%;
-    background-color: rgb(26, 83, 9);
-    height: 50vh;
-    text-align: center;
-    align-items: center;
+.content{
+    width: 74%;
+    float: left;
 }
-footer h1{
-    padding-top: 160px;
+.content footer{
+    background-color: green;
+    width: 99vw;
+    height: 29vh;
+}
+
+.content footer center{
+    padding-top: 100px;
     color: white;
 }
 
+.ads{
+    background-color: rgb(207, 207, 207);
+    float: right;
+    width: 23%;
+    height: 180vh;
+    margin-right: 27px;
+    align-items: center;
+    display: block;
+    margin-top: 100px;
+    border-radius: 15px;
+    box-shadow: 0px 10px 10px 1px;
+}
+
+.images{
+    width: 84%;
+    border-radius: 15px;
+}
+
+.images:hover{
+    border: solid 3px rgb(155, 181, 255);
+}
+
+.button{
+    margin-top: 15px;
+    width: 84%;
+    border-radius: 15px;
+    border: none;
+    height: 35px;
+    font-size: larger;
+}
+.button:active{
+        border: solid 2px rgb(155, 181, 255);
+        border-radius: 15px;
+        background: linear-gradient(to right, white, white);
+    
+
+}
+
+.button:hover{
+    background: linear-gradient(to right, rgb(0, 153, 255), rgb(255, 21, 235));
+    color: white;
+
+}
+.ad1{
+    margin-top: 15px;
+}
